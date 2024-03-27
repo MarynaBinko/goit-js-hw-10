@@ -1,2 +1,2 @@
-import"./assets/styles-a663f59e.js";console.log("snack");
+import"./assets/styles-76528e1a.js";import"./assets/vendor-94c342ae.js";let a=document.getElementById("toastBox");const i=document.getElementById("notification-form");let l='<i class="fa-solid fa-square-check"></i>Fulfilled promise in ms',o='<i class="fa-solid fa-xmark"></i>Rejected promise in ms';i.addEventListener("submit",function(e){e.preventDefault(),n()});function n(){let e=document.createElement("div");e.classList.add("toast");const t=i.querySelector('input[name="state"]:checked');let s;t&&(s=t.value),s==="fulfilled"?(e.innerHTML=l,e.classList.add("successMsg")):(e.innerHTML=o,e.classList.add("errorMsg")),a.appendChild(e)}
 //# sourceMappingURL=commonHelpers2.js.map
