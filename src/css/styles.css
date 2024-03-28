@@ -97,6 +97,7 @@ button:disabled {
 
 /* Snackbar */
 /* __________________________________________________________________ */
+
 .form {
  display: flex;
   flex-direction: column;
@@ -109,6 +110,7 @@ button:disabled {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent; 
   outline: transparent;
+  position: relative;
 }
 .label {
   display: flex;
@@ -158,23 +160,26 @@ button[type="submit"]{
 .toast{
   width: 380px;
   height: 62px;
-  background-color: #fff;
+  color: white;
   font-weight: 500;
   margin: 15px 0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
+  border-radius: 8px;
 }
 
 .toast i{
   margin: 0 20px;
   font-size: 35px;
-  color: green;
+ 
 }
 
 .successMsg{
-background-color: rgb(36, 227, 36);
+background-color: rgb(33, 194, 33);
+
 }
 .errorMsg{
 background-color: rgb(234, 62, 62);
+
 }
