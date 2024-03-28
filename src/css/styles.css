@@ -8,6 +8,7 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 
+
 :root {
   --font-family: "Montserrat", sans-serif;
 }
@@ -93,7 +94,25 @@ button:disabled {
   color: #999;
   cursor: not-allowed;
 }
-
+.toastT{
+  width: 380px;
+  height: 62px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  
+}
+.toastT i{
+  margin: 0 20px;
+  font-size: 32px;
+  color: rgb(133, 20, 20);
+ 
+}
 
 /* Snackbar */
 /* __________________________________________________________________ */

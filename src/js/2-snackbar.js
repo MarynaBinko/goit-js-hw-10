@@ -24,8 +24,7 @@ return new Promise ((resolve, reject)=>{
 
 form.addEventListener("submit", function(event){
     event.preventDefault();
-    // showToast();
-createPromise()
+  createPromise()
 .then((delay)=>{
     const successMsg = `<i class="fa-solid fa-square-check"></i>Fulfilled promise in ${delay}ms`;
     showToast(successMsg, 'successMsg');
