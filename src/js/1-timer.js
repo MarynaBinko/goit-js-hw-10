@@ -19,7 +19,7 @@ function handleClick() {
   startButton.disabled = true;
   const dateString = document.getElementById("datetime-picker").value;
   const  userSelectedDate = new Date(dateString);
-  const currentTime = Date.now();
+  
  
      intervalId = setInterval(() => {
           const currentTime = Date.now();
@@ -108,32 +108,6 @@ function showToast() {
 
 
 
-// function showToast(){
-//   iziToast.error({
-//     title: "Invalid Date",
-//     message: "Please choose a date in the future.",
-//     position: "topCenter",
-//     timeout: 3000
-//   });
-// };
-
-// function handleClick(){
-// startButton.disabled = true;
-// const userSelectedDate = flatpickrInstance.selectedDates[0];
-// const startTime = Date.now();
-//   intervalId = setInterval(() => {
-//       const currentTime = Date.now();
-//       const deltaTime = userSelectedDate.getTime() - currentTime;
-//      if(deltaTime <= 0){
-//       clearInterval(intervalId);
-//       updateClockface({ days: 0, hours: 0, minutes: 0, seconds: 0});
-      
-//      }else{
-//       const time = convertMs(deltaTime);
-//       updateClockface(time);
-//      }
-//   }, 1000);
-// };
 
 
 

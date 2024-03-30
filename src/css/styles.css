@@ -111,6 +111,9 @@ button:disabled {
   margin: 0 20px;
   font-size: 32px;
   color: rgb(133, 20, 20);
+  
+  filter: alpha(opacity=50);
+   opacity: 0.5; 
  
 }
 
